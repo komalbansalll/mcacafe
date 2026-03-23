@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AKS Cafe- Traditional Tea And Coffee with Different types of Breads ">
+    <link rel="stylesheet" href="style.css">
+    <title>AKS CAFE</title>
+</head>
+
+<body>
+    <!-- navigation section start -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <h1>AKS CAFE</h1>
+                    <span class="tagline">Traditional Tea And Coffee</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- navigation section end here -->
+
+    <!-- Main Section start -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Wecome to AKS Cafe</h2>
+            <p>Experience the traditional Tea and Coffee</p>
+            <div class="hero-buttons">
+                <a href="#menu" class="btn btn-primary">View Menu</a>
+                <a href="#contact" class="btn btn-secondary">Make Reservation</a>
+            </div>
+        </div>
+    </section>
+    <!-- main section end here -->
+    <!-- Menu Section start here -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2 class="section-title">Our Menu</h2>
+            <p class="section-subtitle">Discover our carefully crafted dishes</p>
+            <div class="menu-catagories">
+                <div class="menu-catagory">
+                    <h3>Appetizers</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h4>Bruschetta Ittalian</h4>
+                                <p>Fresh tometoes, basil, and mozzarella on tosted bread</p>
+                            </div>
+                            <span class="price">800</span>
+                        </div>
+                    </div>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h4>Antipasto Platter</h4>
+                                <p>Selection of cured meats, cheeses and marinated vegetables</p>
+                            </div>
+                            <span class="price">1800</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Menu Section end here -->
+    <!-- About Section Start Here -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About AKS Cafe</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Our Story</h3>
+                    <p>AKS Cafe started as a small dream of serving fresh coffee and homemade snacks in a friendly
+                        place. Founded with passion and dedication, the cafe quickly became popular for its warm
+                        atmosphere and quality food. Today, AKS Cafe is known as a relaxing spot where friends meet,
+                        students study, and families enjoy time together.
+
+                    </p>
+                    <p> With a focus on cleanliness, great taste, and customer happiness, AKS Cafe continues to grow
+                        every day. The cafe offers a variety of beverages, fast food, and desserts prepared with care.
+                        Our goal is to provide a comfortable environment where every visitor feels welcome and enjoys
+                        memorable moments.</p>
+                </div>
+                <div class="about-image">
+                    <img src="images/krisztina-papp-fg69ALZG7DQ-unsplash.jpg" alt="Cafe Interior">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- About Section End Here -->
+    <!-- Contact Us Section Here Start -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <div class="contact-item">
+                        <strong>Address</strong>
+                        <p>Dwarka sec 14, New Delhi, Delhi</p>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Phone</strong>
+                        <p>+919988445566</p>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Address</strong>
+                        <p>akscafe@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <h3>Make a Reservation</h3>
+                <form action="#">
+                    <div class="form-group">
+                        <label for="name">Full Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone:</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="date">Reservation Date:</label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Time:</label>
+                        <select name="time" id="time">
+                            <option value="">
+                                Select time
+                            </option>
+                            <option value="18:00">6 pm</option>
+                            <option value="17:00">7 pm</option>
+                            <option value="20:00">8 pm</option>
+                            <option value="21:00">9 pm</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="guest">Number of guest:</label>
+                        <select name="guest" id="guest">
+                            <option value="">
+                                Select time
+                            </option>
+                            <option value="1">1 Guest</option>
+                            <option value="2">2 Guest</option>
+                            <option value="3">3 Guest</option>
+                            <option value="4">4 Guest</option>
+                            <option value="5+">5+</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="date">Special Request:</label>
+                        <textarea name="message" name="message" id="message" rows="4"
+                            placeholder="Any special dietary requirement or request...."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Us Section End Here -->
+    <!-- Fotter Section Start Here -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>AKS Cafe</h3>
+                    <p>Experience the traditional Tea and Coffee</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#Menu">Menu</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Opeaning Hours</h4>
+                    <p>Monday-Thrusday:11:00am-10pm</p>
+                    <p>Friday-Saurday:12:00pm-4am</p>
+                    <p>Sunday:12:00pm-10pm</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Social Links</h4>
+                    <div class="social-links">
+                        <a href="" class="social-link">Facebook</a>
+                        <a href="" class="social-link">Instagram</a>
+                        <a href="" class="social-link">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>@copyright: 2026 AKS Cafe Restaurant.All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Fotter Section Start Here -->
+</body>
+
+</html>
